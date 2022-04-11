@@ -136,7 +136,7 @@
                         <img src="./data/memory-game.png" alt="image" class="w-full" />
                         <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                             <h3>
-                                <a href=""
+                                <a href="https://adriennnnn.github.io/memory/"
                                     class=" font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary">
                                     Créer un jeu de mémoire
                                 </a>
