@@ -145,7 +145,7 @@
                                 Creer un jeu de mémoire simple en POO JS, dans le but 
                                 d'initier mais premier pas en POO Js 
                             </p>
-                            <a href="javascript:void(0)"
+                            <a href="https://adriennnnn.github.io/memory/"
                                 class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition">
                                 Voir plus
                             </a>
