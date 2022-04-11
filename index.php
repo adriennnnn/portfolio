@@ -120,8 +120,8 @@
                                     Créer un petit Instagram </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                Reproduit un instagram dans la forme, mais avec un nombre de 
-                                fonctionnalités restreinte, connexion et création du compte(si pseudo non existant), 
+                                J'ai essaiyer de reproduire un site similaire a instagram dans la forme. Mais avec un nombre de 
+                                fonctionnalités restreintes, connexion et création du compte(si pseudo non existant), 
                                 barre de recherche, publication de poste et un profil personnalisable
                             </p>
                             <a href="javascript:void(0)"
@@ -142,8 +142,8 @@
                                 </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                Creer un jeu de mémoire simple en POO JS, dans le but 
-                                d'initier mais premier pas en POO Js 
+                                creation d'un jeu de mémoire simple en POO JS, dans le but 
+                                de m'initier à la Programmmation Orientée Object en JS. 
                             </p>
                             <a href="https://adriennnnn.github.io/memory/"
                                 class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition">
@@ -164,9 +164,9 @@
                                 </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                Création d'un drumpad pour débuter mon apprentissage en JS avec des écouteurs
-                                d'événement lier à des boutons ou à des touches du clavier plus l'intégration 
-                                de son dans le code 
+                                Création d'un drumpad pour débuter mon apprentissage en JS. A l'aide d'écouteurs
+                                d'événements liés à des boutons ou à des touches du clavier, ainsi que l'intégration 
+                                de sons dans le code. 
                             </p>
                             <a href="javascript:void(0)"
                                 class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition">
