@@ -187,12 +187,12 @@
             <li><a href="https://github.com/adriennnnn/" target="blank"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACcUlEQVRYR+2WT8gMYRzHv79hzBwcEOp1k4sau7XzEKXcFJJX1HsR5SBJiJSSmyTvwemlcJGTPzeRolzkwPbMztbOS9q3Vvay5d20KbPZmZ9Gs7VN3npmJmvVzGUu3+98P31/v2efJUz4QxPOhwIw74SKBosG8zaQ11/sYNHgUg0IIQ4y8y4ieiSlrAIIl9BSqVTaqOv6UQADx3FuRG/VZrPu4HIhxE0AZ+Kgl8w8T0TbAGxiZgPAAhFVmXkNER0CoAN4FQTBjOu638YNqJo3NkCybfsiEc2qkkU6Zr7f7XZPtVotX9WXacS2bZcBvCCiDapBse4ngCNSyieqvqyAl4nommpIQvdgcXHxpGqLqQEty1phGMYcEZ3ICPgOwH4p5VcVf2pAAMkTrJIzqnnr+/4Bz/O6KsYsgBBCXAVwRSXgD5q/O+Io0LbtPUT0NP5tS8t5Wkp5W9WUqUHLslaapnkLwDHVoFhX6/f7041G44uqLxNg9PFyubxe1/W7AKYVw7wgCI67rhtdi8pPKkAhRHRdnQ3DsFqr1d4AWFapVHZqmnYYwG4AmxPJHwG8B/C40+m8brfbP5TJYmEqwMgjhJhi5lkieiilfD78jhDiEoDrowDMfKfX651rNpv9tGBDfWrA+JDsIKILYRjOaZo2D2AKwD0A2xMgC4PBYF+9Xv80VkAA0V08Q0Tnmfk7EYXMvJWIVica/Axgr+M4H8YN+DsvOs2GYWwBsC6++koTBTiEEUKsBfAsOWJm/rcN/jeAADTLslaZpqmNjtj3/dDzvF6av/jJXc10irMufBZfAZiltVFP0WDRYN4G8vqLHczb4C/7mOIpIkOZIwAAAABJRU5ErkJggg=="></a>
             </li>
-            <li><a href="https://www.instagram.com/adrthms/" target="blank"><svg xmlns="http://www.w3.org/2000/svg"
+            <!-- <li><a href="https://www.instagram.com/adrthms/" target="blank"><svg xmlns="http://www.w3.org/2000/svg"
                         x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32" style=" fill:#000000;">
                         <path
                             d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z">
                         </path>
-                    </svg></a></li>
+                    </svg></a></li> -->
             <li><a href="https://www.linkedin.com/in/adrien-thomas-08845b229/" target="blank"><svg
                         xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32"
                         style=" fill:#000000;">
