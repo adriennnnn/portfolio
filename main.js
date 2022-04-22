@@ -8,10 +8,10 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '500');
-});
+// btn.on('click', function(e) {
+//   e.preventDefault();
+//   $('html, body').animate({scrollTop:0}, '500');
+// });
 
 function copyFunction() {
   navigator.clipboard.writeText('adrienthomas54@gmail.com')
@@ -20,7 +20,7 @@ function copyFunction() {
   setTimeout(() => { console.log("cacher!");
   divCacher.style.display = "none";
 
-}, 2000);
+}, 5000);
 }
 
 
