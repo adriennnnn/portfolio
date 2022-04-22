@@ -27,93 +27,128 @@
     </header>
     <a id="button"></a>
     <!-- premier partie en deux colonne -->
-    <div class="grid grid-cols-6 gap-4 my-20 ">
-        <div class="col-start-2 col-end-4 text-center ">
-            <p class="home__greetings mb-4">Hello I'm</p>
-            <h1 class="text-left m-1  font-semibold text-7xl HV ">Adrien<br>THOMAS</h1>
-            <h2 class="text-left my-4 font-medium text-3xl">Dev. Back & Front-End</h2>
-            <!-- <h2 class="text-left my-4 font-medium text-2xl">Contacte par e-mail ;</h2> -->
-            <div class="grid grid-cols-2 ">
-                <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom"  class="E-mail" onclick="copyFunction()" id="btnE">
-                    adrienthomas54@gmail.com
-                </button>
-                <div id="tooltip-bottom" role="tooltip"
-                    class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-                    cliquer pour copier
-                    <div class="tooltip-arrow" data-popper-arrow></div>
+
+    <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20  mt-5 mx-64">
+        <div class="container">
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/2 xl:w-2/4 px-4 mb-10">
+                    <!--  <div class="grid grid-cols-6 gap-4 my-20 ">
+                        <div class="col-start-2 col-end-4 text-center ">-->
+                    <div class="home__greetings mb-4">
+                        <p class="grid justify-center">Hello I'm</p>
+                    </div>
+                    <h1 class="text-left m-1  font-semibold text-7xl HV ">Adrien<br>THOMAS</h1>
+                    <h2 class="text-left my-4 font-medium text-3xl">Dev. Back & Front-End</h2>
+                    <!-- <h2 class="text-left my-4 font-medium text-2xl">Contacte par e-mail ;</h2> -->
+                    <div class="grid grid-cols-2 ">
+                        <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" class="E-mail"
+                            onclick="copyFunction()" id="btnE">
+                            adrienthomas54@gmail.com
+                        </button>
+                        <div id="tooltip-bottom" role="tooltip"
+                            class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            cliquer pour copier
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </div>
+                    <div class="grid justify-items-end">
+                        <div id="divCacher" class="hidden ">
+                            <div class="home__bluetings mt-3">
+                                <p class="px-1 m-0">E-mail copier !!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div>
+                    </div>-->
                 </div>
-            </div>
-            <div class="grid justify-items-end">
-                <div id="divCacher" class="hidden ">
-                    <div class="home__bluetings mt-3">
-                        <p class="px-1 m-0">E-mail copier !!</p>
+                <div class="w-full lg:w-1/2 xl:w-2/4 px-4">
+
+                    <div class="col-end-6 col-span-2 text-center">
+                        <figure class="home__figure">
+                            <img class="rounded-3" src="./data/adrien.jpg" alt="my figure pixel" />
+                        </figure>
+
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <br>
 
-        </div>
-        <div class="col-end-6 col-span-2 text-center">
-            <figure class="home__figure">
-                <img class="rounded-3" src="./data/adrien.jpg" alt="my figure pixel" />
-            </figure>
+    <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20  mt-5 mx-64">
+        <div class="container">
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/2 xl:w-3/12 px-4 mb-10">
 
-        </div>
-    </div>
-    <br><br>
-    <div class="grid grid-cols-6 gap-4 my-20" id="about">
-        <div class="col-start-2 col-end-3 text-center">
-            <img src="./data/framework2.png" alt="jsp">
-        </div>
-        <div class="col-start-3 col-end-6 text-center">
-            <h1 class="text-left ml-10 mb-5 text-3xl font-medium text-gray-600">À propos de moi</h1>
-            <p class="text-left text-gray-700 text-lg"> Bonjour, je m'appelle Adrien, développeur back/front-end basé en
-                français.
-                Et j'adore ♥️ construire des sites web et les personnaliser !
-            </p>
-            <h3 class="text-left ml-10 mb-5 mt-5 text-2xl font-medium text-gray-600">compétence</h3>
 
-            <!-- alternative -->
-            <div class="text-left">
-                <h2 class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600">
-                    skill html
-                </h2>
-            </div>
-            <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                    style="width:80%"> 80%</div>
-            </div>
-            <div class="text-left">
-                <h2
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600    ">
-                    skill css
-                </h2>
-            </div>
-            <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                    style="width: 80%"> 80%</div>
-            </div>
-            <div class="text-left">
-                <h2
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600    ">
-                    skill js
-                </h2>
-            </div>
-            <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                    style="width: 25%"> 25%</div>
-            </div>
-            <div class="text-left">
-                <h2
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600    ">
-                    skill php
-                </h2>
-            </div>
-            <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
-                <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                    style="width: 60%"> 60%</div>
+                    <!-- <div class="grid grid-cols-6 gap-4 my-20" > -->
+                    <div class="col-start-2 col-end-3 text-center">
+                        <img src="./data/framework2.png" alt="jsp">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-9/12 px-4 mb-10">
+
+
+                    <div class="col-start-3 col-end-6 text-center">
+                        <h1 class="text-left ml-10 mb-5 text-3xl font-medium text-gray-600" id="about">À propos de moi
+                        </h1>
+                        <p class="text-left text-gray-700 text-lg"> Bonjour, je m'appelle Adrien, développeur
+                            back/front-end basé en
+                            français.
+                            Et j'adore ♥️ construire des sites web et les personnaliser !
+                        </p>
+                        <h3 class="text-left ml-10 mb-5 mt-5 text-2xl font-medium text-gray-600">compétence</h3>
+
+                        <!-- alternative -->
+                        <div class="text-left">
+                            <h2
+                                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600">
+                                skill html
+                            </h2>
+                        </div>
+                        <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                            <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                style="width:80%"> 80%</div>
+                        </div>
+                        <div class="text-left">
+                            <h2
+                                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600    ">
+                                skill css
+                            </h2>
+                        </div>
+                        <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                            <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                style="width: 80%"> 80%</div>
+                        </div>
+                        <div class="text-left">
+                            <h2
+                                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600    ">
+                                skill js
+                            </h2>
+                        </div>
+                        <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                            <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                style="width: 25%"> 25%</div>
+                        </div>
+                        <div class="text-left">
+                            <h2
+                                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lime-600    ">
+                                skill php
+                            </h2>
+                        </div>
+                        <div class="m-2 w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                            <div class="bg-sky-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                style="width: 60%"> 60%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        </div>
+    </section>
+
+
+
     <h1 class="text-center font-medium text-gray-600 text-3xl mt-10" id="projects">Quelques Projets</h1>
     <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20 m-24 mt-5">
         <div class="container">
@@ -128,9 +163,11 @@
                                     Créer un petit Instagram </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                J'ai essaiyer de reproduire un site similaire a instagram dans la forme. Mais avec un
+                                J'ai essaiyer de reproduire un site similaire a instagram dans la forme.
+                                Mais avec un
                                 nombre de
-                                fonctionnalités restreintes, connexion et création du compte(si pseudo non existant),
+                                fonctionnalités restreintes, connexion et création du compte(si pseudo
+                                non existant),
                                 barre de recherche, publication de poste et un profil personnalisable
                             </p>
                             <a href="javascript:void(0)"
@@ -172,8 +209,10 @@
                                 </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                Création d'un drumpad pour débuter mon apprentissage en JS. A l'aide d'écouteurs
-                                d'événements liés à des boutons ou à des touches du clavier, ainsi que l'intégration
+                                Création d'un drumpad pour débuter mon apprentissage en JS. A l'aide
+                                d'écouteurs
+                                d'événements liés à des boutons ou à des touches du clavier, ainsi que
+                                l'intégration
                                 de sons dans le code.
                             </p>
                             <a href="javascript:void(0)"
