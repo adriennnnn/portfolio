@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.2/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.4.2/dist/flowbite.js"></script>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>portdolio Adrien</title>
@@ -32,16 +34,21 @@
             <h2 class="text-left my-4 font-medium text-3xl">Dev. Back & Front-End</h2>
             <!-- <h2 class="text-left my-4 font-medium text-2xl">Contacte par e-mail ;</h2> -->
             <div class="grid grid-cols-2 ">
-                <h2 class="E-mail" onclick="copyFunction()"> adrienthomas54@gmail.com</h2>
-                <button type="button" data-copy-state="copy" onclick="copyFunction()"
-                    class="flex items-center px-3 py-2 ml-16 mr-10 text-xs font-medium text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-gray-300 copy-to-clipboard-button">
-                    <svg class="w-4 h-4 mr-2 text-center" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z">
-                        </path>
-                    </svg> <span class="copy-text item-center">Copier</span>
+                <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom"  class="E-mail" onclick="copyFunction()" id="btnE">
+                    adrienthomas54@gmail.com
                 </button>
+                <div id="tooltip-bottom" role="tooltip"
+                    class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                    cliquer pour copier
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
+            </div>
+            <div class="grid justify-items-end">
+                <div id="divCacher" class="hidden ">
+                    <div class="home__bluetings mt-3">
+                        <p class="px-1 m-0">E-mail copier !!</p>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -59,7 +66,8 @@
         </div>
         <div class="col-start-3 col-end-6 text-center">
             <h1 class="text-left ml-10 mb-5 text-3xl font-medium text-gray-600">À propos de moi</h1>
-            <p class="text-left text-gray-700 text-lg"> Bonjour, je m'appelle Adrien, développeur back/front-end basé en français.
+            <p class="text-left text-gray-700 text-lg"> Bonjour, je m'appelle Adrien, développeur back/front-end basé en
+                français.
                 Et j'adore ♥️ construire des sites web et les personnaliser !
             </p>
             <h3 class="text-left ml-10 mb-5 mt-5 text-2xl font-medium text-gray-600">compétence</h3>
@@ -120,12 +128,13 @@
                                     Créer un petit Instagram </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                J'ai essaiyer de reproduire un site similaire a instagram dans la forme. Mais avec un nombre de 
-                                fonctionnalités restreintes, connexion et création du compte(si pseudo non existant), 
+                                J'ai essaiyer de reproduire un site similaire a instagram dans la forme. Mais avec un
+                                nombre de
+                                fonctionnalités restreintes, connexion et création du compte(si pseudo non existant),
                                 barre de recherche, publication de poste et un profil personnalisable
                             </p>
                             <a href="javascript:void(0)"
-                                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition">
+                                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-black hover:text-white transition">
                                 Voir plus
                             </a>
                         </div>
@@ -142,11 +151,11 @@
                                 </a>
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
-                                creation d'un jeu de mémoire simple en POO JS, dans le but 
-                                de m'initier à la Programmmation Orientée Object en JS. 
+                                creation d'un jeu de mémoire simple en POO JS, dans le but
+                                de m'initier à la Programmmation Orientée Object en JS.
                             </p>
                             <a href="https://adriennnnn.github.io/memory/"
-                                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition">
+                                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-black hover:text-white transition">
                                 Voir plus
                             </a>
                         </div>
@@ -154,8 +163,7 @@
                 </div>
                 <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                     <div class="bg-white rounded-lg overflow-hidden mb-10 shadow-2xl">
-                        <img src="./data/drumpad.png" alt="image"
-                            class="w-full" />
+                        <img src="./data/drumpad.png" alt="image" class="w-full" />
                         <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                             <h3>
                                 <a href="javascript:void(0)"
@@ -165,11 +173,11 @@
                             </h3>
                             <p class="text-justify text-body-color leading-relaxed mb-7">
                                 Création d'un drumpad pour débuter mon apprentissage en JS. A l'aide d'écouteurs
-                                d'événements liés à des boutons ou à des touches du clavier, ainsi que l'intégration 
-                                de sons dans le code. 
+                                d'événements liés à des boutons ou à des touches du clavier, ainsi que l'intégration
+                                de sons dans le code.
                             </p>
                             <a href="javascript:void(0)"
-                                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-primary hover:text-white transition">
+                                class="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-body-color font-medium hover:border-primary hover:bg-black hover:text-white transition">
                                 Voir plus
                             </a>
                         </div>
