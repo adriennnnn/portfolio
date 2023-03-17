@@ -14,7 +14,7 @@ $(window).scroll(function() {
 // });
 
 function copyFunction() {
-  navigator.clipboard.writeText('adrienthomas54@gmail.com')
+  navigator.clipboard.writeText('adrienthomas54@icloud.com')
   // alert("texte copier")
   divCacher.style.display = "block";
   setTimeout(() => { console.log("cacher!");
